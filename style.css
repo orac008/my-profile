@@ -1,0 +1,110 @@
+body{
+	background: #F6F5F3;
+	color: rgb(30, 30, 30);
+	font-family: 'Lora';
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Merriweather Sans';
+}
+
+h1{
+	color: #271F19;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2{
+	color: #19110B;
+	font-size: 32px;
+	font-weight: lighter;
+	font-weight: 300;
+}
+
+a{
+	text-decoration: none;
+	color: #19110B;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+a:hover {
+	color: #19110B;
+}
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;	
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+
+}
+
+.btn-blue {
+	background-color: #19110B;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #4B4641;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #19110B;
+}
+
+.list-inline i:hover {
+	color: #4B4641;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+
+
+ 
